@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Clock Plugin",
+  "short_name": "Clock",
+  "description": "A simple plugin to display the current time.",
+  "start_url": "/popup.html/?utm_source=web_app_manifest",
+  "version": "1.0",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "lang": "en-US",
+  "dir": "ltr",
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_title": "Clock Plugin",
+    "default_popup": "popup.html"
+  }
+}
